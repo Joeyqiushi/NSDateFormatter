@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DAB38621B69D78600CD159E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAB38611B69D78600CD159E /* main.m */; };
+		8DAB38651B69D78600CD159E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAB38641B69D78600CD159E /* AppDelegate.m */; };
+		8DAB38681B69D78600CD159E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAB38671B69D78600CD159E /* ViewController.m */; };
+		8DAB386B1B69D78600CD159E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAB38691B69D78600CD159E /* Main.storyboard */; };
+		8DAB386D1B69D78600CD159E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAB386C1B69D78600CD159E /* Images.xcassets */; };
+		8DAB38701B69D78600CD159E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DAB386E1B69D78600CD159E /* LaunchScreen.xib */; };
+		8DAB387C1B69D78600CD159E /* NSDateFormatterEfficiencyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAB387B1B69D78600CD159E /* NSDateFormatterEfficiencyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DAB38761B69D78600CD159E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DAB38541B69D78600CD159E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DAB385B1B69D78600CD159E;
+			remoteInfo = NSDateFormatterEfficiency;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DAB385C1B69D78600CD159E /* NSDateFormatterEfficiency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDateFormatterEfficiency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAB38601B69D78600CD159E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DAB38611B69D78600CD159E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DAB38631B69D78600CD159E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DAB38641B69D78600CD159E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DAB38661B69D78600CD159E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8DAB38671B69D78600CD159E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8DAB386A1B69D78600CD159E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DAB386C1B69D78600CD159E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8DAB386F1B69D78600CD159E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8DAB38751B69D78600CD159E /* NSDateFormatterEfficiencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDateFormatterEfficiencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAB387A1B69D78600CD159E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DAB387B1B69D78600CD159E /* NSDateFormatterEfficiencyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDateFormatterEfficiencyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DAB38591B69D78600CD159E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DAB38721B69D78600CD159E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DAB38531B69D78600CD159E = {
+			isa = PBXGroup;
+			children = (
+				8DAB385E1B69D78600CD159E /* NSDateFormatterEfficiency */,
+				8DAB38781B69D78600CD159E /* NSDateFormatterEfficiencyTests */,
+				8DAB385D1B69D78600CD159E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DAB385D1B69D78600CD159E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DAB385C1B69D78600CD159E /* NSDateFormatterEfficiency.app */,
+				8DAB38751B69D78600CD159E /* NSDateFormatterEfficiencyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DAB385E1B69D78600CD159E /* NSDateFormatterEfficiency */ = {
+			isa = PBXGroup;
+			children = (
+				8DAB38661B69D78600CD159E /* ViewController.h */,
+				8DAB38671B69D78600CD159E /* ViewController.m */,
+				8DAB385F1B69D78600CD159E /* Supporting Files */,
+			);
+			path = NSDateFormatterEfficiency;
+			sourceTree = "<group>";
+		};
+		8DAB385F1B69D78600CD159E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DAB38631B69D78600CD159E /* AppDelegate.h */,
+				8DAB38641B69D78600CD159E /* AppDelegate.m */,
+				8DAB38691B69D78600CD159E /* Main.storyboard */,
+				8DAB386C1B69D78600CD159E /* Images.xcassets */,
+				8DAB386E1B69D78600CD159E /* LaunchScreen.xib */,
+				8DAB38601B69D78600CD159E /* Info.plist */,
+				8DAB38611B69D78600CD159E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DAB38781B69D78600CD159E /* NSDateFormatterEfficiencyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DAB387B1B69D78600CD159E /* NSDateFormatterEfficiencyTests.m */,
+				8DAB38791B69D78600CD159E /* Supporting Files */,
+			);
+			path = NSDateFormatterEfficiencyTests;
+			sourceTree = "<group>";
+		};
+		8DAB38791B69D78600CD159E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DAB387A1B69D78600CD159E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DAB385B1B69D78600CD159E /* NSDateFormatterEfficiency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DAB387F1B69D78600CD159E /* Build configuration list for PBXNativeTarget "NSDateFormatterEfficiency" */;
+			buildPhases = (
+				8DAB38581B69D78600CD159E /* Sources */,
+				8DAB38591B69D78600CD159E /* Frameworks */,
+				8DAB385A1B69D78600CD159E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSDateFormatterEfficiency;
+			productName = NSDateFormatterEfficiency;
+			productReference = 8DAB385C1B69D78600CD159E /* NSDateFormatterEfficiency.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DAB38741B69D78600CD159E /* NSDateFormatterEfficiencyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DAB38821B69D78600CD159E /* Build configuration list for PBXNativeTarget "NSDateFormatterEfficiencyTests" */;
+			buildPhases = (
+				8DAB38711B69D78600CD159E /* Sources */,
+				8DAB38721B69D78600CD159E /* Frameworks */,
+				8DAB38731B69D78600CD159E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DAB38771B69D78600CD159E /* PBXTargetDependency */,
+			);
+			name = NSDateFormatterEfficiencyTests;
+			productName = NSDateFormatterEfficiencyTests;
+			productReference = 8DAB38751B69D78600CD159E /* NSDateFormatterEfficiencyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DAB38541B69D78600CD159E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = com.joeyxu;
+				TargetAttributes = {
+					8DAB385B1B69D78600CD159E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8DAB38741B69D78600CD159E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8DAB385B1B69D78600CD159E;
+					};
+				};
+			};
+			buildConfigurationList = 8DAB38571B69D78600CD159E /* Build configuration list for PBXProject "NSDateFormatterEfficiency" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DAB38531B69D78600CD159E;
+			productRefGroup = 8DAB385D1B69D78600CD159E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DAB385B1B69D78600CD159E /* NSDateFormatterEfficiency */,
+				8DAB38741B69D78600CD159E /* NSDateFormatterEfficiencyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DAB385A1B69D78600CD159E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAB386B1B69D78600CD159E /* Main.storyboard in Resources */,
+				8DAB38701B69D78600CD159E /* LaunchScreen.xib in Resources */,
+				8DAB386D1B69D78600CD159E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DAB38731B69D78600CD159E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DAB38581B69D78600CD159E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAB38681B69D78600CD159E /* ViewController.m in Sources */,
+				8DAB38651B69D78600CD159E /* AppDelegate.m in Sources */,
+				8DAB38621B69D78600CD159E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DAB38711B69D78600CD159E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAB387C1B69D78600CD159E /* NSDateFormatterEfficiencyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DAB38771B69D78600CD159E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DAB385B1B69D78600CD159E /* NSDateFormatterEfficiency */;
+			targetProxy = 8DAB38761B69D78600CD159E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DAB38691B69D78600CD159E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAB386A1B69D78600CD159E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DAB386E1B69D78600CD159E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAB386F1B69D78600CD159E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DAB387D1B69D78600CD159E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DAB387E1B69D78600CD159E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DAB38801B69D78600CD159E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSDateFormatterEfficiency/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8DAB38811B69D78600CD159E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSDateFormatterEfficiency/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8DAB38831B69D78600CD159E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NSDateFormatterEfficiencyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSDateFormatterEfficiency.app/NSDateFormatterEfficiency";
+			};
+			name = Debug;
+		};
+		8DAB38841B69D78600CD159E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NSDateFormatterEfficiencyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSDateFormatterEfficiency.app/NSDateFormatterEfficiency";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DAB38571B69D78600CD159E /* Build configuration list for PBXProject "NSDateFormatterEfficiency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DAB387D1B69D78600CD159E /* Debug */,
+				8DAB387E1B69D78600CD159E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DAB387F1B69D78600CD159E /* Build configuration list for PBXNativeTarget "NSDateFormatterEfficiency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DAB38801B69D78600CD159E /* Debug */,
+				8DAB38811B69D78600CD159E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DAB38821B69D78600CD159E /* Build configuration list for PBXNativeTarget "NSDateFormatterEfficiencyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DAB38831B69D78600CD159E /* Debug */,
+				8DAB38841B69D78600CD159E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DAB38541B69D78600CD159E /* Project object */;
+}

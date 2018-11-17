@@ -1,3 +1,5 @@
+# NSDateFormatter最佳实践
+
 本文介绍NSDateFormatter的性能瓶颈，以及如何解决性能问题。
 
 分别用NSDateFormatter和C的localtime()方法去将时间转化成一个可读的字符串。转化1024*10次，然后对比时间。
